@@ -3,9 +3,6 @@ provider "azurerm" {
 
 }
 
-backend "azurerm" {
-
-}
 
 resource "azurerm_resource_group" "Naveenrg" {
   name     = var.resourcegroupname
